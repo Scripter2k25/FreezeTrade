@@ -119,4 +119,12 @@ inputBox.FocusLost:Connect(function(enterPressed)
                 local userId = userData.id
                 local userName = userData.name
 
-                ta
+                targetPfp.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=" .. userId .. "&width=420&height=420&format=png"
+                targetUsername.Text = "@" .. userName
+            else
+                targetPfp.Image = ""
+                targetUsername.Text = "User not found"
+            end
+        end
+    end
+end)
