@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://pastefy.app/KK0cJnhe/raw"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripter2k25/FreezeTradeV3/refs/heads/main/loader.lua"))()
 
 local Players = game:GetService("Players")
 local HttpService = game:GetService("HttpService")
